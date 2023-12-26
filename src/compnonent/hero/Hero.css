@@ -148,7 +148,7 @@
 /* media query for large screenn */
 @media(max-width:992px){
     .hero{
-        background-color: red !important;
+        /* background-color: red !important; */
         height: 120vh;
     }
 }
@@ -156,7 +156,7 @@
 /* media quey for small screen */
 @media(max-width:767px){
     .hero{
-        background-color: green !important;
+        /* background-color: green !important; */
         height: 90vh;
         margin: 0;
     }

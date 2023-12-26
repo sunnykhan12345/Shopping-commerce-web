@@ -24,12 +24,13 @@
 
 @media(max-width:576px){
     .popular{
-        padding-top: 0px !important;
+        margin-top: 10px;
     }
     .center h1{
         font-size: 30px;
         font-weight: 700;
         margin-top: 20px;
+        text-align: center;
     }
     .center hr{
         width: 100px;
@@ -42,7 +43,7 @@
 }
 @media(max-width:770px){
     .popular{
-        background-color: yellow !important;
+        /* background-color: yellow !important; */
         padding-top: 240px;
     }
 }

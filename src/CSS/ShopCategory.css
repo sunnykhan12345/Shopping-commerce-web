@@ -34,6 +34,9 @@
 }
 /* media query for small screen */
  @media(max-width:600px){
+    .shopcategory{
+        margin-bottom: 200px;
+    }
     .showing-products-numbe p{
         font-size: 1rem;
         font-weight: 500;

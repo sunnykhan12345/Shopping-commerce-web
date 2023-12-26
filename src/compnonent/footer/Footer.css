@@ -41,8 +41,8 @@
 .copyright{
     cursor: pointer;
     margin-bottom: 30px;
-    color: #1a1a1a;
-    /* color: white; */
+    /* color: #1a1a1a; */
+    color: white;
     font-size: 20px;
 }
 .copyright hr{
@@ -55,6 +55,9 @@
 
 
 @media(max-width:576px){
+    .footer{
+        margin-top: 30px !important;
+    }
     .footer-links li{
         /* background-color: red; */
         display: block;

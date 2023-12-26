@@ -16,7 +16,7 @@ const Popular = () => {
      <div className='popular'>
      <Container className='my-md-5' data-aos="fade-right">
         <Row>
-            <Col lg={12} className='center my-lg-5 my-0' >
+            <Col lg={12} className='center my-lg-5 my-0 ' >
             <h1 >Popular in Womwn</h1>
             <hr />
             </Col>

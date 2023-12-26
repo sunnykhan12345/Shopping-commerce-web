@@ -73,6 +73,9 @@
 }
 
 @media(max-width:600px){
+    .productdisplay .card{
+      margin-bottom: 100px !important;
+    }
     .select-size .select-sizes{
        display: inline-block !important;
     }
