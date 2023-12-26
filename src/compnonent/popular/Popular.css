@@ -24,7 +24,7 @@
 
 @media(max-width:576px){
     .popular{
-        margin-top: 10px;
+        /* margin-top: 10px; */
     }
     .center h1{
         font-size: 30px;
@@ -44,6 +44,6 @@
 @media(max-width:770px){
     .popular{
         /* background-color: yellow !important; */
-        padding-top: 240px;
+        /* padding-top: 0px; */
     }
 }
