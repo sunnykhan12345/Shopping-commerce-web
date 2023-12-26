@@ -1,0 +1,129 @@
+/* news latter style */
+
+.newslater{
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    /* background-color:#11235A !important; */
+    text-align: center;
+    margin: 40px 0;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.newslater h1{
+    color: #454545;
+    font-size: 55px;
+    font-weight: 600;
+}
+.newslater p{
+    color: #454545;
+    font-size: 20px;
+    
+}
+.newslater .div{
+    margin-top: 1.875rem;
+    width: 730px;
+    height: 70px;
+    background:white;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #3e3e3e;
+    margin-left: 200px;
+}
+
+.newslater input{
+    width: 500px;
+    height: 20px;
+    border: none;
+    outline: none;
+    color: #616161;
+    font-size: 1rem;
+    padding-left: 1.875rem;
+}
+.newslater .div button{
+    border: none;
+    outline: none;
+    color: white;
+    background-color: black;
+    width: 210px;
+    height: 70px;
+    border-radius: 80px;
+    font-size: 16px;
+    cursor: pointer;
+   
+}
+
+/* media query for small screen */ 
+ @media(max-width:567px){
+    .newslater h1{
+       
+        font-size: 23px;
+        font-weight: 600;
+       
+    }
+    .newslater .div{
+       
+        /* flex-direction: column; */
+        /* background-color: red !important; */
+        /* width: 200px !important; */
+        display: none;
+        /* background-color: black !important; */
+       
+    }
+    .newslater input{
+        display: none;
+        /* width: 32px !important;
+        height: 30px;
+        border: none;
+        outline: none;
+        color: #616161;
+        font-size: 1rem; */
+        /* padding-left: 1.875rem; */
+    }
+    .newslater .div button{
+        display: none;
+       
+    }
+}
+
+@media(max-width:992px){
+    .newslater .div{
+        margin-top: 1.875rem;
+        width: 430px;
+        height: 50px;
+        background:white;
+        border-radius: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #3e3e3e;
+        margin: 50px auto;
+        /* margin-left: 200px; */
+       
+    }
+    
+    .newslater input{
+        width: 500px;
+        height: 20px;
+        border: none;
+        outline: none;
+        color: #616161;
+        font-size: 1rem;
+        padding-left: 1.875rem;
+    }
+    .newslater .div button{
+        border: none;
+        outline: none;
+        color: white;
+        background-color: black;
+        width: 210px;
+        height: 50px;
+        border-radius: 80px;
+        font-size: 16px;
+        cursor: pointer;
+        
+       
+    }
+}

@@ -1,0 +1,89 @@
+/* offers style */
+
+.offers{
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+    /* background-color:#11235A; */
+    margin-bottom: 10px;
+}
+
+.offer-text{
+    padding: 100px 0;
+    text-align: center;
+    
+}
+.offer-text h1{
+    font-size: 70px;
+    font-weight: 800;
+    color: #171717;
+    /* color: white; */
+    
+}
+.offer-text p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #171717;
+    /* color: white; */
+}
+
+.offer-text button{
+    width: 282px;
+    height: 70px;
+    border: none;
+    background-color: #ff4141;
+    color: white;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.offer-text button:hover{
+    opacity: 0.7;
+}
+
+/* media query for small screen */
+@media(max-width:576px){
+    .offer-text h1{
+        font-size: 40px;
+        font-weight: 600;
+        color: #171717;
+        
+    }
+    .offer-text button{
+        width: 242px;
+        height: 60px;
+        margin-top: 30px;
+        font-size: 20px;
+        font-weight: 500;
+       
+    }
+
+}
+
+
+/* animation in img */
+
+
+.offer-img img{
+    animation-name: movebounce;
+    animation-delay: 100ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+
+@keyframes movebounce{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(1.25rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+

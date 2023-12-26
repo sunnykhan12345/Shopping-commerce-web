@@ -1,0 +1,236 @@
+/* header css */
+
+
+header {
+    /* background-color: red; */
+    box-shadow: 0 2px 3px -3px #515151;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+.navbar-brand p{
+    color:#171717;
+    font-size: 1.5rem;
+    font-size: 1.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav-item .active{
+    color: red !important;
+}
+.nav-item .nav-link{
+    color: #626262!important;
+    font-size: 1.25rem;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+    
+    
+}
+.nav-item  a:hover{
+    color: #ff4141 !important;
+    text-decoration: underline;
+}
+
+
+.nav-item a{
+     /* gap: 5px !important; */
+    
+}
+
+.login button{
+    border: 1px solid #171717;
+    color: #515151;
+    width: 157px;
+    height: 58px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    transition: all 0.5s ease-in-out;
+}
+.login button:hover{
+    opacity: 0.7;
+}
+.bi{
+    font-size:40px;
+    margin-left: 20px;
+}
+
+.shop-cart{
+    display: flex;
+    align-items: center;
+}
+
+.shop-cart .count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -30px;
+    margin-left: 50px;
+    background: red;
+    color: white;
+    border-radius: 11px;
+    position: absolute;
+}
+.navbar-toggler{
+    /* background: red; */
+    box-shadow: none !important;
+    border: none;
+}
+.navbar-toggler:hover:focus{
+    opacity: 4;
+}
+
+/* media query for small screen */
+
+@media(max-width:576px){
+
+    /* .navbar{
+        background-color:#212121;
+        opacity: 0.8;
+        
+    } */
+    /* .navbar-toggler{
+        /* background: red; */
+        /* box-shadow: none !important; */
+        /* border: none; */
+        /* color: white !important; */
+        /* background: white !important; */
+    /* } */ 
+    .navbar p{
+        color: white;
+    }
+    .navbar-brand img{
+        width: 20px;
+    }
+    .navbar-brand p{
+        
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .nav-item .nav-link{
+        padding: 20px 0;
+        color: white !important;
+       
+    }
+    .login{
+        display: flex;
+        justify-content: center;
+    }
+    .login button{
+        border: 1px solid #171717;
+        color: #515151;
+        width: 90px;
+        height: 35px;
+        border-radius: 75px;
+        font-size: 15px;
+        font-weight: 500;
+        display: flex;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+       
+    }
+    .all{
+       text-align: center;
+    }
+    .shop-cart{
+        display: flex;
+        justify-content: center;
+    }
+    .bi{
+        font-size:40px;
+        color: white;
+        /* margin-left: 20px; */
+    }
+}
+
+/* media query for large screen */
+
+
+@media(max-width:992px){
+    .nav-item .nav-link{
+        padding: 20px 0;
+        color: white !important;
+       
+    }
+
+    .shop-cart{
+        display: flex;
+        justify-content: center;
+    }
+
+    .login{
+        display: flex;
+        justify-content: center;
+    }
+    .login button{
+        border: 1px solid #171717;
+        color: #515151;
+        width: 90px;
+        height: 35px;
+        border-radius: 75px;
+        font-size: 15px;
+        font-weight: 500;
+        display: flex;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15px;
+       
+    }
+    .all{
+       text-align: center;
+       /* background-color: #994D1C; */
+       background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,14,154,1) 35%, rgba(0,212,255,1) 100%);
+       padding: 20px 0;
+    }
+    .bi{
+        color: white;
+    }
+}
+
+
+
+
+
+
+
+/* header css */
+/* header .navbar{
+    position: absolute;
+    width: 100%;
+    background-color: transparent;
+    z-index: 1000;
+   
+}
+header .navbar.sticky{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: white;
+    transition: all 15ms ease-in-out;
+    animation-name: stickytransition;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    box-shadow: 0 2px 3px rgba(96, 96, 90, 0.1);
+}
+@keyframes stickytransition{
+    0%{
+        opacity: 0;
+        transform: translate3d(1,-100%,0);
+    }
+    100%{
+        opacity: 1;
+        transform: translate3d(none);
+    }
+} */
+/* header css */
